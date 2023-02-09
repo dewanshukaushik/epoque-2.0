@@ -4,6 +4,7 @@
 
 :root {
     --primary: #094b65;
+    --secondary: #f1f1f1;
 }
 
 * {
@@ -87,7 +88,8 @@ section img {
     top: 0px;
     left: 0;
     width: 100%;
-    height: 100%;
+    /* height: 100%; */
+    height: 139%;
     object-fit: cover;
     pointer-events: none;
 }
@@ -112,8 +114,10 @@ section #text span {
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
-    background: #fff;
-    color: var(--primary);
+    /* background: #fff;*/
+    /* color: var(--primary); */
+    background: #160c3f;
+    color: var(--secondary); 
     font-size: 1.2em;
     font-weight: 500;
     letter-spacing: 2px;
