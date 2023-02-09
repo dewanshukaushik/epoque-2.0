@@ -27,6 +27,16 @@
   flex-direction: column;
 }
 
+.footer-small {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
 .social-icon,
 .menu {
   position: relative;
@@ -84,12 +94,21 @@
   background: url("https://i.ibb.co/wQZVxxk/wave.png");
   background-size: 1000px 100px;
 }
+.wave-small {
+  position: absolute;
+  top: -56px;
+  left: 0;
+  width: 100%;
+  height: 63px;
+  background: url(https://i.ibb.co/wQZVxxk/wave.png);
+  background-size: 1000px 100px;
+}
 
 .wave#wave1 {
   z-index: 1000;
   opacity: 1;
   bottom: 0;
-  animation: animateWaves 4s linear infinite;
+  animation: animateWaves 4s linear infinite !important;
 }
 
 .wave#wave2 {
@@ -113,6 +132,20 @@
   animation: animate 3s linear infinite;
 }
 
+.wave-small#wave1 {
+  z-index: 1000;
+  opacity: 1;
+  bottom: 0;
+  animation: animateWaves 4s linear infinite !important;
+}
+
+.wave-small#wave2 {
+  z-index: 999;
+  opacity: 0.5;
+  bottom: 10px;
+  animation: animate 4s linear infinite !important;
+}
+
 @keyframes animateWaves {
   0% {
     background-position-x: 1000px;
@@ -130,3 +163,7 @@
     background-positon-x: 0px;
   }
 }
+
+.footer-small {
+  top: 26px;
+  }
