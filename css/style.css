@@ -565,3 +565,11 @@ img{
         height: 640px;
     }
 }
+
+@media screen and (max-width: 600px) and (min-width: 200px) {
+.summary{
+  margin-top:0; 
+  margin-bottom: 0;
+  margin-left: 7%;
+ }
+}
