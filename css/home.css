@@ -161,10 +161,35 @@ footer a {
     margin-left: 616px;
 }
 
-@media (max-width:800px) and ( min-width:200px) {
+@media (max-width:424px) and ( min-width:200px) {
     .img-logo{
         width: 237px;
         height: 361px;
         margin-left: 60px;
+    }
+}
+
+@media (max-width:600px) and ( min-width:425px) {
+    .img-logo{
+        width: 237px;
+        height: 361px;
+        margin-left: 111px;
+    }
+}
+
+@media (max-width:768px) and ( min-width:601px) {
+    .img-logo{
+        /* width: 237px;
+        height: 361px; */
+        margin-left: 224px;
+    }
+}
+
+
+@media screen and (min-width:801px) and (max-width:1040px) {
+    .img-logo{
+        width: 427px;
+        height: 665px;
+        margin-left: 308px;
     }
 }
