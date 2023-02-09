@@ -4,10 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<!--==================== UNICONS ====================-->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        
-    <!--==================== CSS ====================-->
+<!--==================== CSS ====================-->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.css'>
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css'>
     <link rel="stylesheet" href="../css/contact.css">
     <link rel="stylesheet" href="../css/style.css">
@@ -15,6 +14,8 @@
   <link rel="stylesheet" href="../css/accordion.css">
     <link rel="stylesheet" href="../css/dropdown.css">
     <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/clock.css">
+<!--==================== CSS END ====================-->
 
     <title>EPOQUE@Prastuti</title>
     
@@ -71,15 +72,10 @@
           <img src="../images/bg_1.jpg" id="bg" />
           <h2 id="text" class="text-responsive">Institute Level Events</h2>
     </section>
-  <section class="home" id="home">
-    <div class="home__container bd-container bd-grid">
-        <div class="home__data">
-            <h1 class="home__title" >Events</h1>
-        </div>
-        <img src="images/about.png" alt="" class="home__img" style="max-width: 350px;">
-    </div>
-</section>  
-            <section style="margin-top: 5%;">
+              <br><br>
+                  <div class="clock"></div>
+              <br><br>
+              <section class="summary">
                 <details>
                     <summary class="services__title">1. Group Dance (चांस पे डांस) </summary>
                     <p class="services__description">Rules & Regulations:<br>
@@ -250,9 +246,13 @@
         <!--==================== MAIN JS ====================-->
         <img src="assets/img/about.jpg" alt="" class="about__img">
 
-
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script src='https://momentjs.com/downloads/moment.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.14/moment-timezone-with-data-2012-2022.min.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/flipclock/0.7.8/flipclock.js'></script>
     <script type="text/javascript" src="../js/main.js"></script>
     <script src="../js/footer.js"></script>
+    <script src="../js/clock.js"></script>
     
 </body>
 </html>

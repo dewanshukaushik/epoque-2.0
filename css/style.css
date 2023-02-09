@@ -323,6 +323,11 @@ img{
   margin-bottom: var(--mb-1);
 }
 
+.summary{
+  margin-top: 35%;
+  margin-bottom: 10%;
+}
+
 .services__description{
   padding: 0 1.5rem;
 }
