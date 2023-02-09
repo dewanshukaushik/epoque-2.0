@@ -250,4 +250,7 @@ body {
   .about__description {
     margin-bottom: 0px !important;
   }
+  .home__img {
+  margin-bottom: 465px !important;
+  }
 }
