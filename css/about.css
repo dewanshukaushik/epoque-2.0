@@ -243,7 +243,7 @@ section img#bg{
 }
 body {
   height: 100vh;
-  width: 100vw;
+  width: 98vw;
 }
 
 @media screen and (max-width:600px) and (min-width:200px) {
