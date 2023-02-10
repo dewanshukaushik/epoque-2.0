@@ -152,7 +152,7 @@ body.dark-theme{
   }
 
   .home__container{
-    height: 100vh;
+    height: 109vh;
     justify-items: center;
   }
 
@@ -196,7 +196,7 @@ body.dark-theme{
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
-        height: 640px;
+        height: 715px;
     }
 }
 
