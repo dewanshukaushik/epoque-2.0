@@ -152,7 +152,7 @@ body.dark-theme{
   }
 
   .home__container{
-    height: 109vh;
+    height: 109vh !important;
     justify-items: center;
   }
 
@@ -196,9 +196,15 @@ body.dark-theme{
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
     .home__container {
-        height: 715px;
+        height: 113vh;  
     }
 }
+
+/* @media screen and (min-height: 940px) and (max-height: 1024px) {
+  .home__container {
+      height: 70 vh !important;  
+  }
+} */
 
 
 section img#bg{
@@ -253,4 +259,14 @@ body {
   .home__img {
   margin-bottom: 465px !important;
   }
+  .home__container {
+    height: 310vh !important;  
 }
+}
+
+@media screen and (max-width:722px) and (min-width:601px) {
+  .home__container {
+    height: 310vh !important;  
+}
+}
+
