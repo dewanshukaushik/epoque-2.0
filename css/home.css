@@ -155,10 +155,17 @@ footer a {
     color: #fff;
 } */
 
-.img-logo {
+/* .img-logo {
     width: 443px;
     height: 676px;
     margin-left: 616px;
+} */
+
+.img-logo {
+    width: 480px;
+    height: 312px;
+    margin-left: 536px;
+    top: 129px;
 }
 
 @media (max-width:424px) and ( min-width:200px) {

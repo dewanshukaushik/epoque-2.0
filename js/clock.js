@@ -108,7 +108,7 @@ var FlipClock;
   }),
     (FlipClock.Lang = {}),
     (FlipClock.Base = Base.extend({
-      buildDate: "2014-12-12",
+      buildDate: "2023-03-02",
       version: "0.7.7",
       constructor: function(b, c) {
         "object" != typeof b && (b = {}),
@@ -1069,7 +1069,7 @@ document.addEventListener("touchstart", function() {}, false);
   "use strict";
   var dt = new Date();
   var cts = Math.ceil(new Date().getTime() / 1000);
-  var dt1 = "12/25/" + dt.getFullYear() + " 00:00:01 am +0000";
+  var dt1 = "03/02/" + dt.getFullYear() + " 00:00:01 am +0000";
   var dtClock1 = Math.ceil(new Date(dt1).getTime() / 1000);
   var flipTimeboxSeconds1 = Math.ceil(dtClock1 - cts);
   var dt2 = "01/01/" + (dt.getFullYear() + 1) + " 00:00:01 am +0000";
